@@ -65,3 +65,29 @@
     display: block;
     margin-left: auto;
 }
+
+@media (max-width: 990px) {
+    .header-person {
+        margin-left: 0;
+    }
+
+    .header-email {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 580px) {
+    .header-wrap {
+        grid-template-columns: 140px auto 140px;
+        grid-column-gap: 5px;
+    }
+
+    .header-logo {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+    }
+
+    .header-email {
+        grid-column: 3 / 4;
+    }
+}

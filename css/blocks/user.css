@@ -30,3 +30,19 @@
     margin-left: auto;
     cursor: pointer;
 }
+
+@media (max-width: 680px) {
+    .user {
+        grid-template-columns: auto;
+    }
+
+    .user-info {
+        padding-right: 0;
+        border-right: none;
+    }
+
+    .user-btn {
+        justify-self: center;
+        margin-bottom: 25px;
+    }
+}
